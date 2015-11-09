@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.michael.bae.MainActivity">
+
+    <item android:id="@+id/action_add"
+        android:title="New"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_new"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/action_edit"
+        android:title="Edit"
+        android:orderInCategory="200"
+        android:icon="@drawable/ic_action_edit"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/action_profile"
+    android:title="Profile"
+    android:orderInCategory="300"
+    android:showAsAction="withText|ifRoom" />
+
+    <item android:id="@+id/action_notifications"
+        android:title="Notifications"
+        android:orderInCategory="300"
+        android:showAsAction="withText|ifRoom" />
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="300"
+        app:showAsAction="never" />
+
+</menu>
